@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biblioteca musical - Sistema Musical</title>
+    <link rel="stylesheet" href="styles.css"
+</head>
+<body>
+    
+    <header class="page-header-bar">
+        <h1>🎼 Biblioteca Musical</h1>
+
+        <div class="header-actions">
+            <a href="index.html" class="btn-secondary">⬅ Voltar ao Menu</a>
+            <a href="cadastro_musica.html" class="btn-primary">➕ Nova Música</a>
+        </div>
+    </header>
+
+    <main class="container">
+
+        <section class="filters">
+
+            <div class="filter-group">
+                <label for="busca">Buscar música:</label>
+                <input type="text" id="busca" placeholder="Digite o título da música...">
+            </div>
+
+            <div class="filter-group">
+                <label for="artista">Artista:</label>
+                <select id="artista">
+                    <option value="Todos os artistas">Todos os artistas</option>
+                    <option value="Djavan">Djavan</option>
+                    <option value="Marisa monte">Marisa Monte</option>
+                </select>
+            </div>
+            
+
+    <div class="filter-group">
+        <label for="genero">Gênero:</label>
+        <select id="genero">
+            <option value="">Todos os gêneros</option>
+            <option value="MPB">MPB</option>
+            <option value="Rock">Rock</option>
+            <option value="Pop">Pop</option>
+        </select>
+
+
+    </div>
+
+    <div class="filter-actions">
+        <button type="button" class="btn-primary">Filtrar</button>
+    </div>
+
+    </section>
+
+        <div class="table-container">
+
+            <table>
+                <thead>
+                    <tr>
+                        <th>Capa</th>
+                        <th>Título</th>
+                        <th>Artista</th>
+                        <th>Álbum</th>
+                        <th>Gênero</th>
+                        <th>Youtube</th>
+                        <th>Ações</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <tr>
+                         <td>🎵</td>
+                        <td>Oceano</td>
+                        <td>Djavan</td>
+                        <td>Luz</td>
+                        <td>MPB</td>
+                        <td>
+                            <a href="https://www.youtube.com/" target="_blank">▶ Assistir</a>
+                            </td>
+                            <td>
+                                <button type="button">Editar</button>
+                                <button type="button">Excluir</button>
+                            </td>
+                    </tr>
+                     <td>🎵</td>
+                        <td>Infinito Particular</td>
+                        <td>Marisa Monte</td>
+                        <td>Infinito Particular</td>
+                        <td>MPB</td>
+                        <td>
+                            <a href="https://www.youtube.com/" target="_blank">▶ Assistir</a>
+                            </td>
+                            <td>
+                                <button type="button">Editar</button>
+                                <button type="button">Excluir</button>
+                            </td>
+                    </tr>
+                </tbody>
+            </table>
+
+
+
+
+
+
+
+        </div>
+     </main>
+
+</body>
+
+</html>
